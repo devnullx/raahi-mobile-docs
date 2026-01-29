@@ -1,0 +1,7 @@
+Sprint,Start_Date,End_Date,Working_Days,Total_Tasks,Completed,In_Progress,Blocked,Not_Started,Progress_%,Planned_Points,Actual_Points,Velocity,Status
+Sprint 1 - Foundation,2025-02-03,2025-02-28,20,45,0,0,0,45,0,45,0,0,Not Started
+Sprint 2 - Core Trip,2025-03-03,2025-03-28,20,52,0,0,0,52,0,52,0,0,Not Started
+Sprint 3 - Features,2025-03-31,2025-04-25,20,48,0,0,0,48,0,48,0,0,Not Started
+Sprint 4 - Polish,2025-04-28,2025-05-23,20,35,0,0,0,35,0,35,0,0,Not Started
+,,,,,,,,,,,,,
+TOTALS,,,80,180,0,0,0,180,0,180,0,,

@@ -1,0 +1,167 @@
+ID,Task,Parent,Owner,Priority,Status,Start_Date,End_Date,Est_Days,Actual_Days,Progress_%,Blocked_By,Sprint,Notes
+1.0,PROJECT SETUP,,TL,P0,Not Started,2025-02-03,2025-02-05,3,,,Sprint 1,
+1.1,Initialize RN project,1.0,TL,P0,Not Started,2025-02-03,2025-02-03,1,,,Sprint 1,Expo setup
+1.2,Folder structure,1.0,TL,P0,Not Started,2025-02-04,2025-02-04,1,,,Sprint 1,Per architecture doc
+1.3,ESLint + Prettier,1.0,TL,P1,Not Started,2025-02-04,2025-02-04,0.5,,,Sprint 1,
+1.4,CI/CD pipeline,1.0,TL,P0,Not Started,2025-02-05,2025-02-05,1,,,Sprint 1,GitHub Actions + EAS
+1.5,Environment variables,1.0,TL,P1,Not Started,2025-02-05,2025-02-05,0.5,,,Sprint 1,
+2.0,DESIGN SYSTEM,,DS,P0,Not Started,2025-02-03,2025-02-07,5,,,Sprint 1,
+2.1,Color palette & typography,2.0,DS,P0,Not Started,2025-02-03,2025-02-04,2,,,Sprint 1,Brand colors
+2.2,Base component specs,2.0,DS,P0,Not Started,2025-02-04,2025-02-06,2,,,Sprint 1,Button Input Card
+2.3,Icon library selection,2.0,DS,P1,Not Started,2025-02-06,2025-02-07,1,,,Sprint 1,
+2.4,Screen wireframes,2.0,DS,P0,Not Started,2025-02-10,2025-02-21,10,,,Sprint 1,12 screens
+3.0,BASE UI COMPONENTS,,M1,P0,Not Started,2025-02-04,2025-02-12,7,,,Sprint 1,
+3.1,Button component,3.0,M1,P0,Not Started,2025-02-04,2025-02-05,1,,,Sprint 1,Primary secondary ghost
+3.2,Input component,3.0,M1,P0,Not Started,2025-02-05,2025-02-06,1,,,Sprint 1,Text phone OTP
+3.3,Card component,3.0,M1,P0,Not Started,2025-02-06,2025-02-07,1,,,Sprint 1,Base trip earnings
+3.4,Modal component,3.0,M1,P1,Not Started,2025-02-10,2025-02-11,1,,,Sprint 1,Bottom sheet alert
+3.5,Toast/Snackbar,3.0,M1,P1,Not Started,2025-02-11,2025-02-12,1,,,Sprint 1,
+3.6,Loading/Skeleton,3.0,M1,P2,Not Started,2025-02-12,2025-02-12,0.5,,,Sprint 1,
+4.0,AUTHENTICATION FLOW,,M2,P0,Not Started,2025-02-05,2025-02-14,8,,,Sprint 1,
+4.1,AWS Amplify Auth setup,4.0,M2,P0,Not Started,2025-02-05,2025-02-06,1,,,Sprint 1,Cognito config
+4.2,Login screen UI,4.0,M2,P0,Not Started,2025-02-06,2025-02-07,1,,,Sprint 1,Phone input
+4.3,OTP screen UI,4.0,M2,P0,Not Started,2025-02-10,2025-02-11,1,,,Sprint 1,6-digit input timer
+4.4,Request OTP API,4.0,M2,P0,Not Started,2025-02-11,2025-02-12,1,,,Sprint 1,
+4.5,Verify OTP API,4.0,M2,P0,Not Started,2025-02-12,2025-02-13,1,,,Sprint 1,Get tokens
+4.6,Token storage,4.0,M2,P1,Not Started,2025-02-13,2025-02-13,0.5,,,Sprint 1,SecureStore
+4.7,Token refresh logic,4.0,M2,P0,Not Started,2025-02-13,2025-02-14,1,,,Sprint 1,Interceptor
+4.8,Auth state management,4.0,M2,P1,Not Started,2025-02-14,2025-02-14,0.5,,,Sprint 1,Zustand store
+5.0,NAVIGATION SETUP,,TL,P0,Not Started,2025-02-10,2025-02-14,5,,,Sprint 1,
+5.1,Expo Router installation,5.0,TL,P0,Not Started,2025-02-10,2025-02-10,0.5,,,Sprint 1,
+5.2,Auth flow navigation,5.0,TL,P0,Not Started,2025-02-10,2025-02-11,1,,,Sprint 1,Login OTP Main
+5.3,Main tab navigator,5.0,TL,P0,Not Started,2025-02-11,2025-02-12,1,,,Sprint 1,5 tabs
+5.4,Stack navigators,5.0,TL,P1,Not Started,2025-02-12,2025-02-13,1,,,Sprint 1,Trip settings
+5.5,Deep linking config,5.0,TL,P1,Not Started,2025-02-13,2025-02-14,1,,,Sprint 1,URL scheme
+6.0,SQLITE DATABASE,,TL,P0,Not Started,2025-02-17,2025-02-21,5,,,Sprint 1,
+6.1,expo-sqlite install,6.0,TL,P0,Not Started,2025-02-17,2025-02-17,0.5,,,Sprint 1,
+6.2,Schema creation,6.0,TL,P0,Not Started,2025-02-17,2025-02-18,1.5,,,Sprint 1,All tables
+6.3,Migration system,6.0,TL,P1,Not Started,2025-02-18,2025-02-19,1,,,Sprint 1,Version tracking
+6.4,Query helpers,6.0,TL,P1,Not Started,2025-02-19,2025-02-20,1,,,Sprint 1,CRUD operations
+6.5,Sync queue table,6.0,TL,P0,Not Started,2025-02-20,2025-02-21,1,,,Sprint 1,Offline foundation
+7.0,DASHBOARD SCREEN,,M1,P0,Not Started,2025-02-17,2025-02-26,8,,,Sprint 1,
+7.1,Dashboard layout,7.0,M1,P0,Not Started,2025-02-17,2025-02-18,1,,,Sprint 1,Header sections
+7.2,Shift card,7.0,M1,P0,Not Started,2025-02-18,2025-02-19,1,,,Sprint 1,Clock in/out hours
+7.3,Active trip card,7.0,M1,P0,Not Started,2025-02-19,2025-02-20,1,,,Sprint 1,Status progress
+7.4,Earnings summary card,7.0,M1,P1,Not Started,2025-02-20,2025-02-21,1,,,Sprint 1,Today earnings
+7.5,Pending tasks card,7.0,M1,P1,Not Started,2025-02-24,2025-02-25,1,,,Sprint 1,Actionable items
+7.6,Pull to refresh,7.0,M1,P1,Not Started,2025-02-25,2025-02-26,1,,,Sprint 1,
+8.0,API CLIENT SETUP,,M2,P0,Not Started,2025-02-17,2025-02-21,5,,,Sprint 1,
+8.1,Axios instance,8.0,M2,P0,Not Started,2025-02-17,2025-02-17,0.5,,,Sprint 1,Base URL headers
+8.2,Auth interceptor,8.0,M2,P0,Not Started,2025-02-17,2025-02-18,0.5,,,Sprint 1,Token injection
+8.3,Error interceptor,8.0,M2,P0,Not Started,2025-02-18,2025-02-19,1,,,Sprint 1,401 handling
+8.4,React Query setup,8.0,M2,P0,Not Started,2025-02-19,2025-02-20,1,,,Sprint 1,Caching refetch
+8.5,Offline queue integration,8.0,M2,P0,Not Started,2025-02-20,2025-02-21,1,,,Sprint 1,Failed request queue
+9.0,DRIVER PROFILE,,JR,P0,Not Started,2025-02-19,2025-02-28,8,,,Sprint 1,
+9.1,Profile API integration,9.0,JR,P0,Not Started,2025-02-19,2025-02-20,1,,,Sprint 1,GET /drivers/me
+9.2,Driver Zustand store,9.0,JR,P1,Not Started,2025-02-20,2025-02-21,1,,,Sprint 1,
+9.3,Clock in API,9.0,JR,P0,Not Started,2025-02-24,2025-02-25,1,,,Sprint 1,POST clock-in
+9.4,Clock out API,9.0,JR,P0,Not Started,2025-02-25,2025-02-26,1,,,Sprint 1,POST clock-out
+9.5,Settings screen UI,9.0,JR,P1,Not Started,2025-02-26,2025-02-28,2,,,Sprint 1,Basic preferences
+10.0,TRIP ASSIGNMENT,,M1,P0,Not Started,2025-03-03,2025-03-07,5,,,Sprint 2,
+10.1,Assignment screen UI,10.0,M1,P0,Not Started,2025-03-03,2025-03-04,2,,,Sprint 2,Trip details accept/decline
+10.2,Accept trip API,10.0,M1,P0,Not Started,2025-03-04,2025-03-05,1,,,Sprint 2,POST /trips/{id}/accept
+10.3,Trip Zustand store,10.0,M1,P1,Not Started,2025-03-05,2025-03-06,1,,,Sprint 2,Active trip state
+10.4,Assignment notification,10.0,M1,P1,Not Started,2025-03-06,2025-03-07,1,,,Sprint 2,Push handling
+11.0,LOADING PROCESS,,M2,P0,Not Started,2025-03-03,2025-03-12,8,,,Sprint 2,
+11.1,Loading screen UI,11.0,M2,P0,Not Started,2025-03-03,2025-03-05,2,,,Sprint 2,Progress checklist
+11.2,Start loading API,11.0,M2,P0,Not Started,2025-03-05,2025-03-06,1,,,Sprint 2,POST loading/start
+11.3,Update count API,11.0,M2,P0,Not Started,2025-03-06,2025-03-07,1,,,Sprint 2,PATCH progress
+11.4,Photo capture modal,11.0,M2,P0,Not Started,2025-03-10,2025-03-11,1,,,Sprint 2,Camera integration
+11.5,Complete loading API,11.0,M2,P0,Not Started,2025-03-11,2025-03-12,1,,,Sprint 2,Documents signature
+12.0,DOCUMENT CAPTURE,,JR,P0,Not Started,2025-03-05,2025-03-14,8,,,Sprint 2,
+12.1,Camera component,12.0,JR,P0,Not Started,2025-03-05,2025-03-07,2,,,Sprint 2,Photo capture
+12.2,E-way bill OCR,12.0,JR,P0,Not Started,2025-03-10,2025-03-12,2,,,Sprint 2,OCR integration
+12.3,Signature pad,12.0,JR,P0,Not Started,2025-03-12,2025-03-14,2,,,Sprint 2,Touch signature
+12.4,Local file storage,12.0,JR,P1,Not Started,2025-03-14,2025-03-14,1,,,Sprint 2,Save locally
+13.0,ACTIVE TRIP SCREEN,,TL,P0,Not Started,2025-03-10,2025-03-19,8,,,Sprint 2,
+13.1,Map integration,13.0,TL,P0,Not Started,2025-03-10,2025-03-12,2,,,Sprint 2,react-native-maps
+13.2,Trip progress UI,13.0,TL,P0,Not Started,2025-03-12,2025-03-14,2,,,Sprint 2,Distance ETA status
+13.3,Quick actions menu,13.0,TL,P1,Not Started,2025-03-17,2025-03-18,1,,,Sprint 2,Break issue expense
+13.4,Background location,13.0,TL,P0,Not Started,2025-03-18,2025-03-19,1,,,Sprint 2,GPS tracking
+14.0,MQTT CLIENT,,TL,P0,Not Started,2025-03-12,2025-03-21,8,,,Sprint 2,
+14.1,MQTT library setup,14.0,TL,P0,Not Started,2025-03-12,2025-03-13,1,,,Sprint 2,Paho/MQTT.js
+14.2,Connection management,14.0,TL,P0,Not Started,2025-03-13,2025-03-14,1,,,Sprint 2,Connect reconnect
+14.3,Topic subscriptions,14.0,TL,P0,Not Started,2025-03-17,2025-03-18,1,,,Sprint 2,All driver topics
+14.4,Alert handler,14.0,TL,P0,Not Started,2025-03-18,2025-03-19,1,,,Sprint 2,Store notify
+14.5,Trip update handler,14.0,TL,P1,Not Started,2025-03-19,2025-03-20,1,,,Sprint 2,Real-time updates
+14.6,Earnings handler,14.0,TL,P1,Not Started,2025-03-20,2025-03-21,1,,,Sprint 2,Live earnings
+15.0,ISSUE REPORTING,,M1,P0,Not Started,2025-03-17,2025-03-21,5,,,Sprint 2,
+15.1,Issue report modal,15.0,M1,P0,Not Started,2025-03-17,2025-03-19,2,,,Sprint 2,Type photo
+15.2,Issue API,15.0,M1,P0,Not Started,2025-03-19,2025-03-20,1,,,Sprint 2,POST /trips/{id}/issues
+15.3,Offline queue,15.0,M1,P1,Not Started,2025-03-20,2025-03-21,1,,,Sprint 2,Store locally
+16.0,UNLOADING & POD,,M2,P0,Not Started,2025-03-19,2025-03-28,8,,,Sprint 2,
+16.1,Unloading screen UI,16.0,M2,P0,Not Started,2025-03-19,2025-03-21,2,,,Sprint 2,Checklist count
+16.2,Damage report modal,16.0,M2,P0,Not Started,2025-03-24,2025-03-25,2,,,Sprint 2,Multi-photo type
+16.3,PoD capture,16.0,M2,P0,Not Started,2025-03-25,2025-03-27,2,,,Sprint 2,Photos signature
+16.4,Complete trip API,16.0,M2,P0,Not Started,2025-03-27,2025-03-28,1,,,Sprint 2,POST complete
+17.0,ALERTS SCREEN,,JR,P0,Not Started,2025-03-17,2025-03-26,8,,,Sprint 2,
+17.1,Alerts list UI,17.0,JR,P0,Not Started,2025-03-17,2025-03-19,2,,,Sprint 2,Severity timeline
+17.2,Alert detail view,17.0,JR,P0,Not Started,2025-03-19,2025-03-21,2,,,Sprint 2,Evidence video
+17.3,Acknowledge API,17.0,JR,P0,Not Started,2025-03-24,2025-03-25,1,,,Sprint 2,Action taken
+17.4,Critical alert screen,17.0,JR,P0,Not Started,2025-03-25,2025-03-26,1,,,Sprint 2,Full screen
+18.0,EARNINGS MODULE,,M1,P0,Not Started,2025-03-31,2025-04-09,8,,,Sprint 3,
+18.1,Earnings screen UI,18.0,M1,P0,Not Started,2025-03-31,2025-04-02,2,,,Sprint 3,Summary breakdown
+18.2,Period selector,18.0,M1,P1,Not Started,2025-04-02,2025-04-03,1,,,Sprint 3,Day week month
+18.3,Earnings API,18.0,M1,P0,Not Started,2025-04-03,2025-04-04,1,,,Sprint 3,GET /earnings/summary
+18.4,History list,18.0,M1,P1,Not Started,2025-04-07,2025-04-08,1,,,Sprint 3,Daily breakdown
+18.5,Dispute flow,18.0,M1,P1,Not Started,2025-04-08,2025-04-09,1,,,Sprint 3,Create dispute
+19.0,EXPENSES MODULE,,M2,P0,Not Started,2025-03-31,2025-04-09,8,,,Sprint 3,
+19.1,Expense entry modal,19.0,M2,P0,Not Started,2025-03-31,2025-04-02,2,,,Sprint 3,Type amount photo
+19.2,Expense list screen,19.0,M2,P0,Not Started,2025-04-02,2025-04-04,2,,,Sprint 3,Filter status
+19.3,Create expense API,19.0,M2,P0,Not Started,2025-04-07,2025-04-08,1,,,Sprint 3,POST /expenses
+19.4,Offline expense queue,19.0,M2,P0,Not Started,2025-04-08,2025-04-09,1,,,Sprint 3,Store locally
+20.0,DOCUMENTS MODULE,,JR,P0,Not Started,2025-04-02,2025-04-14,8,,,Sprint 3,
+20.1,Documents list UI,20.0,JR,P0,Not Started,2025-04-02,2025-04-04,2,,,Sprint 3,Verified pending
+20.2,Document upload,20.0,JR,P0,Not Started,2025-04-07,2025-04-09,2,,,Sprint 3,Camera gallery
+20.3,DigiLocker OAuth,20.0,JR,P0,Not Started,2025-04-09,2025-04-11,2,,,Sprint 3,Auth flow
+20.4,DigiLocker fetch,20.0,JR,P0,Not Started,2025-04-11,2025-04-14,2,,,Sprint 3,Get documents
+21.0,AI COPILOT,,TL,P0,Not Started,2025-04-09,2025-04-18,8,,,Sprint 3,
+21.1,Chat UI,21.0,TL,P0,Not Started,2025-04-09,2025-04-11,2,,,Sprint 3,Message bubbles
+21.2,Chat API,21.0,TL,P0,Not Started,2025-04-11,2025-04-14,2,,,Sprint 3,POST /chat/message
+21.3,Quick action chips,21.0,TL,P1,Not Started,2025-04-14,2025-04-16,2,,,Sprint 3,Food fuel rest
+21.4,Voice input STT,21.0,TL,P1,Not Started,2025-04-16,2025-04-17,1,,,Sprint 3,Speech-to-text
+21.5,Voice output TTS,21.0,TL,P2,Not Started,2025-04-17,2025-04-18,1,,,Sprint 3,Text-to-speech
+22.0,OFFLINE SYNC,,TL,P0,Not Started,2025-04-14,2025-04-25,8,,,Sprint 3,
+22.1,Sync queue processor,22.0,TL,P0,Not Started,2025-04-14,2025-04-16,2,,,Sprint 3,Background sync
+22.2,Conflict resolution,22.0,TL,P0,Not Started,2025-04-16,2025-04-18,2,,,Sprint 3,Server wins logic
+22.3,Photo upload queue,22.0,TL,P0,Not Started,2025-04-21,2025-04-23,2,,,Sprint 3,S3 presigned URLs
+22.4,Sync status UI,22.0,TL,P1,Not Started,2025-04-23,2025-04-25,2,,,Sprint 3,Pending indicator
+23.0,TRIP HISTORY,,M1,P1,Not Started,2025-04-14,2025-04-18,5,,,Sprint 3,
+23.1,History list UI,23.0,M1,P1,Not Started,2025-04-14,2025-04-16,2,,,Sprint 3,Past trips
+23.2,Trip detail view,23.0,M1,P1,Not Started,2025-04-16,2025-04-18,2,,,Sprint 3,Full trip data
+24.0,NOTIFICATIONS,,M2,P0,Not Started,2025-04-16,2025-04-25,8,,,Sprint 3,
+24.1,FCM setup,24.0,M2,P0,Not Started,2025-04-16,2025-04-18,2,,,Sprint 3,Android iOS
+24.2,Notification handlers,24.0,M2,P0,Not Started,2025-04-21,2025-04-23,2,,,Sprint 3,Foreground background
+24.3,Deep linking,24.0,M2,P0,Not Started,2025-04-23,2025-04-24,1,,,Sprint 3,Navigate on tap
+24.4,Local notifications,24.0,M2,P1,Not Started,2025-04-24,2025-04-25,1,,,Sprint 3,Break reminders
+25.0,TESTING,,QA,P0,Not Started,2025-04-28,2025-05-09,10,,,Sprint 4,
+25.1,Unit tests,25.0,ALL,P0,Not Started,2025-04-28,2025-05-02,5,,,Sprint 4,Core functions
+25.2,Integration tests,25.0,QA,P0,Not Started,2025-04-28,2025-05-02,5,,,Sprint 4,API flows
+25.3,Device testing,25.0,QA,P0,Not Started,2025-05-05,2025-05-09,5,,,Sprint 4,10+ devices
+25.4,Offline testing,25.0,QA,P0,Not Started,2025-05-05,2025-05-07,3,,,Sprint 4,Network scenarios
+25.5,Performance profiling,25.0,TL,P1,Not Started,2025-05-07,2025-05-09,2,,,Sprint 4,
+26.0,BUG FIXES,,ALL,P0,Not Started,2025-05-05,2025-05-16,10,,,Sprint 4,
+26.1,Critical bugs P0,26.0,ALL,P0,Not Started,2025-05-05,2025-05-09,5,,,Sprint 4,
+26.2,Major bugs P1,26.0,ALL,P1,Not Started,2025-05-12,2025-05-14,3,,,Sprint 4,
+26.3,Minor bugs P2,26.0,JR,P2,Not Started,2025-05-14,2025-05-16,2,,,Sprint 4,
+27.0,OPTIMIZATION,,TL,P1,Not Started,2025-05-12,2025-05-16,5,,,Sprint 4,
+27.1,Bundle size reduction,27.0,TL,P1,Not Started,2025-05-12,2025-05-13,2,,,Sprint 4,Code splitting
+27.2,Startup optimization,27.0,TL,P1,Not Started,2025-05-13,2025-05-14,1,,,Sprint 4,Lazy loading
+27.3,Memory leak fixes,27.0,TL,P1,Not Started,2025-05-14,2025-05-15,1,,,Sprint 4,Profiling
+27.4,Battery optimization,27.0,TL,P1,Not Started,2025-05-15,2025-05-16,1,,,Sprint 4,Background tasks
+28.0,I18N,,M1,P1,Not Started,2025-04-28,2025-05-09,8,,,Sprint 4,
+28.1,i18n library setup,28.0,M1,P1,Not Started,2025-04-28,2025-04-29,1,,,Sprint 4,react-i18next
+28.2,English strings,28.0,M1,P1,Not Started,2025-04-29,2025-04-30,1,,,Sprint 4,Extract all text
+28.3,Hindi translation,28.0,M1,P1,Not Started,2025-04-30,2025-05-05,3,,,Sprint 4,Professional
+28.4,Regional languages,28.0,M1,P2,Not Started,2025-05-05,2025-05-09,2,,,Sprint 4,Tamil Telugu Marathi
+29.0,APP STORE PREP,,DS,P0,Not Started,2025-05-14,2025-05-21,5,,,Sprint 4,
+29.1,App icons,29.0,DS,P0,Not Started,2025-05-14,2025-05-15,1,,,Sprint 4,All sizes
+29.2,Splash screens,29.0,DS,P0,Not Started,2025-05-15,2025-05-16,1,,,Sprint 4,All sizes
+29.3,Store screenshots,29.0,DS,P0,Not Started,2025-05-19,2025-05-20,1,,,Sprint 4,
+29.4,Store descriptions,29.0,PM,P0,Not Started,2025-05-19,2025-05-20,1,,,Sprint 4,Copy writing
+29.5,Privacy policy,29.0,PM,P0,Not Started,2025-05-20,2025-05-21,1,,,Sprint 4,Legal review
+30.0,DEPLOYMENT,,TL,P0,Not Started,2025-05-21,2025-05-23,3,,,Sprint 4,
+30.1,Production Android build,30.0,TL,P0,Not Started,2025-05-21,2025-05-22,1,,,Sprint 4,EAS build
+30.2,Production iOS build,30.0,TL,P0,Not Started,2025-05-21,2025-05-22,1,,,Sprint 4,EAS build
+30.3,Play Store submit,30.0,TL,P0,Not Started,2025-05-22,2025-05-23,1,,,Sprint 4,Internal testing
+30.4,App Store submit,30.0,TL,P0,Not Started,2025-05-22,2025-05-23,1,,,Sprint 4,TestFlight

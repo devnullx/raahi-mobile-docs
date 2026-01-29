@@ -1,0 +1,11 @@
+Risk_ID,Risk_Description,Category,Probability,Impact,Risk_Score,Mitigation_Strategy,Owner,Status,Trigger,Last_Review
+R001,Backend API not ready when needed,Technical,Medium,High,6,Create mock APIs in parallel. Define contracts early. Daily sync with backend team.,TL,Open,API integration starts,2025-02-03
+R002,Device fragmentation causing UI bugs,Technical,Medium,Medium,4,Test on 10+ device types from Sprint 2. Use Firebase Test Lab. Standardize on common components.,QA,Open,UI testing phase,2025-02-03
+R003,DigiLocker integration fails or delayed,Integration,Low,Medium,2,Fallback to manual document upload. DigiLocker is nice-to-have not critical.,M2,Open,DigiLocker OAuth,2025-02-03
+R004,MQTT complexity higher than expected,Technical,Medium,High,6,Tech Lead owns MQTT. Use proven library (Paho). Have REST polling as fallback.,TL,Open,MQTT integration,2025-02-03
+R005,App Store rejection,Deployment,Low,High,3,Follow Apple guidelines strictly. Pre-review with Apple. Have buffer time for fixes.,TL,Open,Store submission,2025-02-03
+R006,Key team member leaves mid-project,Resource,Low,High,3,Cross-train team members. Document everything. No single points of failure.,PM,Open,Throughout project,2025-02-03
+R007,Scope creep from stakeholders,Management,High,Medium,6,Strict change control process. All changes via PM. Defer non-critical to v2.,PM,Open,Feature requests,2025-02-03
+R008,Performance issues on low-end Android,Technical,Medium,Medium,4,Profile performance from Sprint 2. Set min API level 24. Lazy loading.,TL,Open,Performance testing,2025-02-03
+R009,Offline sync conflicts cause data loss,Technical,Medium,High,6,Server-wins policy. Comprehensive conflict resolution. Extensive testing.,TL,Open,Offline testing,2025-02-03
+R010,4G network issues in rural areas,External,High,Medium,6,App must work 100% offline for core features. Store-and-forward architecture.,TL,Open,Field testing,2025-02-03
