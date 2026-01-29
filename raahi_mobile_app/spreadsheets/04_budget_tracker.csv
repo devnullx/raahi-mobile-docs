@@ -1,17 +1,17 @@
 Category,Item,Budgeted_INR,Actual_INR,Variance_INR,Percent_Used,Status,Payment_Due,Notes
-Personnel,Tech Lead (4 months),520000,0,520000,0,On Track,Monthly,
-Personnel,Mid Dev 1 (4 months),280000,0,280000,0,On Track,Monthly,
-Personnel,Mid Dev 2 (4 months),280000,0,280000,0,On Track,Monthly,
-Personnel,Junior Dev (4 months),180000,0,180000,0,On Track,Monthly,
-Personnel,Designer (4 months @ 0.5),120000,0,120000,0,On Track,Monthly,
-Personnel,QA (4 months @ 0.5),90000,0,90000,0,On Track,Monthly,
-Personnel,PM (4 months @ 0.5),140000,0,140000,0,On Track,Monthly,
-Infrastructure,AWS (4 months),20000,0,20000,0,On Track,Monthly,Estimated
-Infrastructure,Apple Developer Account,8500,0,8500,0,On Track,One-time,Annual fee USD 99
-Infrastructure,Google Play Console,2100,0,2100,0,On Track,One-time,USD 25 one-time
-Tools,Figma Team (4 months),8000,0,8000,0,On Track,Monthly,Professional plan
+Personnel,Tech Lead (4 months),TBD,0,TBD,0,On Track,Monthly,
+Personnel,Mid Dev 1 (4 months),TBD,0,TBD,0,On Track,Monthly,
+Personnel,Mid Dev 2 (4 months),TBD,0,TBD,0,On Track,Monthly,
+Personnel,Junior Dev (4 months),TBD,0,TBD,0,On Track,Monthly,
+Personnel,Designer (4 months @ 0.5),TBD,0,TBD,0,On Track,Monthly,
+Personnel,QA (4 months @ 0.5),TBD,0,TBD,0,On Track,Monthly,
+Personnel,PM (4 months @ 0.5),TBD,0,TBD,0,On Track,Monthly,
+Infrastructure,AWS (4 months),TBD,0,TBD,0,On Track,Monthly,Estimated
+Infrastructure,Apple Developer Account,TBD,0,TBD,0,On Track,One-time,Annual fee
+Infrastructure,Google Play Console,TBD,0,TBD,0,On Track,One-time,One-time fee
+Tools,Figma Team (4 months),TBD,0,TBD,0,On Track,Monthly,Professional plan
 Tools,GitHub,0,0,0,0,On Track,Monthly,Free tier
 Tools,Expo/EAS,0,0,0,0,On Track,Monthly,Free tier for now
-Contingency,Buffer (15%),241500,0,241500,0,Reserve,As needed,Emergency fund
+Contingency,Buffer,TBD,0,TBD,0,Reserve,As needed,Emergency fund
 ,,,,,,,,
-TOTALS,,1890100,0,1890100,0,,,
+TOTALS,,TBD,0,TBD,0,,,

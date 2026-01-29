@@ -1,12 +1,12 @@
 Team_Code,Role,Name,Rate_Monthly_INR,Sprint_1_Days,Sprint_2_Days,Sprint_3_Days,Sprint_4_Days,Total_Days,Utilization_%,Total_Cost_INR
-TL,Tech Lead,,130000,20,20,20,20,80,100,520000
-M1,Mid Developer 1,,70000,20,20,20,20,80,100,280000
-M2,Mid Developer 2,,70000,20,20,20,20,80,100,280000
-JR,Junior Developer,,45000,18,20,20,18,76,95,180000
-DS,Designer (0.5 FTE),,60000,10,8,5,10,33,41,120000
-QA,QA Engineer (0.5 FTE),,45000,2,5,10,20,37,46,90000
-PM,Project Manager (0.5 FTE),,70000,10,10,10,10,40,50,140000
+TL,Tech Lead,,TBD,20,20,20,20,80,100,TBD
+M1,Mid Developer 1,,TBD,20,20,20,20,80,100,TBD
+M2,Mid Developer 2,,TBD,20,20,20,20,80,100,TBD
+JR,Junior Developer,,TBD,18,20,20,18,76,95,TBD
+DS,Designer (0.5 FTE),,TBD,10,8,5,10,33,41,TBD
+QA,QA Engineer (0.5 FTE),,TBD,2,5,10,20,37,46,TBD
+PM,Project Manager (0.5 FTE),,TBD,10,10,10,10,40,50,TBD
 ,,,,,,,,,
-,TOTALS,,,100,103,105,118,426,,1610000
-,Contingency (15%),,,,,,,,,241500
-,GRAND TOTAL,,,,,,,,,1851500
+,TOTALS,,,100,103,105,118,426,,TBD
+,Contingency (15%),,,,,,,,,TBD
+,GRAND TOTAL,,,,,,,,,TBD
